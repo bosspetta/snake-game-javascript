@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  outline: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent url("../img/back-grid.jpg") center center no-repeat;
+}
+.grid .square {
+  width: 20px;
+  height: 20px;
+  background-color: lightcyan;
+  outline: 1px solid lightblue;
+  opacity: 0.7;
+}
+.grid .square.snake {
+  background-color: green;
+}
+.grid .square.apple {
+  background-color: royalblue;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    margin: 15px;
+    padding: 15px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: lightcyan;
+    outline: 1px solid lightblue
+}
+
+.snake {
+    background-color: green;
+}
